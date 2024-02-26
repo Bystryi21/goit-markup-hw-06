@@ -1,0 +1,112 @@
+/* Font */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+// <uniquifier>: Use a uniquifier for the class name
+
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: "Roboto" , "Raleway", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+/* H1-H3 */
+h1 {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1, 071;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+p{  
+    color: #434455;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 2%;
+    
+}
+/* Header */
+.logo-header{
+    font-family: "Roboto";
+}
+.pages{
+    color: #2E2F42;
+}
+.pages:hover{
+    color: #404BBF;
+}
+
+.pages-link:active{
+    color:#404BBF;
+}
+/* Сontacts */
+.emailto {
+    color: #434455;
+}
+
+.emailto:hover{
+    color: #404BBF;
+}
+
+.telto{
+    color:#434455;
+}
+
+.telto:hover{
+    color:#404BBF;
+}
+/* Main content */
+.button-order-sevice{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button-order-sevice:hover{
+    color: #FFFFFF;
+    background-color:#404BBF;
+}
+/* Footer */
+.footer-like{
+    color: F4F4FD;
+    background-color: #2E2F42;
+}
