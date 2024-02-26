@@ -16,9 +16,8 @@
     font-weight: 700;
     font-style: normal;
 }
-// <uniquifier>: Use a uniquifier for the class name
 
-.raleway-<uniquifier> {
+.raleway{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -26,8 +25,9 @@
 }
 
 body{
-    font-family: "Roboto" , "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color:#FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
