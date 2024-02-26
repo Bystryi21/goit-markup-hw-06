@@ -67,34 +67,32 @@ p{
 }
 /* Header */
 .logo-header{
-    font-family: "Roboto";
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.pages{
-    color: #2E2F42;
-}
-.pages:hover{
-    color: #404BBF;
+/* Adress */
+.mail-tel{
+    font-style: normal
 }
 
-.pages-link:active{
-    color:#404BBF;
-}
-/* Сontacts */
-.emailto {
+.mail-like{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-
-.emailto:hover{
-    color: #404BBF;
+.mail-like:hover{
+    color: #404bbf;
+}
+.mail-like:active{
+    color: #404bbf;
 }
 
-.telto{
-    color:#434455;
-}
-
-.telto:hover{
-    color:#404BBF;
-}
 /* Main content */
 .button-order-sevice{
     color: #FFFFFF;
