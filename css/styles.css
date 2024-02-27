@@ -20,7 +20,7 @@ body{
     color: #2E2F42;
 }
 
-.header-item{
+.header-list-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -28,11 +28,11 @@ body{
     color:#2e2f42;
 }
 
-.header-item:hover{
+.header-list-item:hover{
     color: #404bbf;
 }
 
-.header-item:focus{
+.header-list-item:focus{
     color: #404bbf;
 }
 
