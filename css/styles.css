@@ -1,73 +1,11 @@
-/* Font */
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.raleway{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color:#FFFFFF;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-}
-/* H1-H3 */
-h1 {
-    color: #FFFFFF;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1, 071;
-    background-color: #2E2F42;
-    text-align: center;
 }
 
-h2 {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2%;
-    text-align: center;
-}
-
-h3 {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
-p{  
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 2%;
-    
-}
 /* Header */
-.logo-header{
-    color: #4d5ae5;
+
+.logo{
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -75,36 +13,44 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-/* Adress */
-.mail-tel{
-    font-style: normal
+
+.part-logo{
+    color: #2E2F42;
 }
 
-.mail-like{
+.header-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.header-item:hover{
+    color: #404bbf;
+}
+
+.header-item:focus{
+    color: #404bbf;
+}
+
+.address{
+    font-style: normal;
+}
+
+.address-list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail-like:hover{
+
+.address-list:hover{
     color: #404bbf;
 }
-.mail-like:active{
+
+.address-list:focus {
     color: #404bbf;
 }
 
 /* Main content */
-.button-order-sevice{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-}
-
-.button-order-sevice:hover{
-    color: #FFFFFF;
-    background-color:#404BBF;
-}
-/* Footer */
-.footer-like{
-    color: F4F4FD;
-    background-color: #2E2F42;
-}
