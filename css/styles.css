@@ -221,7 +221,8 @@ gap: 24px;
 
 .section-team {
   background-color: #f4f4fd;
-  padding: 120px, 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-third-section {
@@ -246,6 +247,10 @@ gap: 24px;
 
 .list-team {
   background-color: #ffffff;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .title-name {
