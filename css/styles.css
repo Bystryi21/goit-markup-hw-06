@@ -48,6 +48,7 @@ address {
 /* Header */
 
 .header{
+    border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -60,6 +61,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .part-logo {
@@ -89,6 +91,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-list-item:hover {
@@ -204,6 +207,7 @@ gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .about-text {
@@ -227,6 +231,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .box-section-two{
@@ -282,12 +287,16 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .container-portfolio {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-menu{
@@ -339,6 +348,8 @@ gap: 24px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-part-logo {
