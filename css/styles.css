@@ -247,6 +247,9 @@ gap: 24px;
 
 .list-team {
   background-color: #ffffff;
+}
+
+.img-our{
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -301,8 +304,12 @@ gap: 24px;
   row-gap: 48px
 }
 
-.portfolio-menu{
-    flex-basis: calc((100% - 48px) / 3);
+/* .portfolio-menu{
+    
+} */
+
+.img-portfolio{
+  flex-basis: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
 
