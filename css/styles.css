@@ -99,6 +99,7 @@ address {
   color: #404bbf;
 }
 
+
 .address-menu{
     display: flex;
     gap: 40px;
@@ -124,23 +125,6 @@ address {
 }
 
 /* Main content */
-/* Section 1 */
-
-.main-section {
-  background-color: #2e2f42;
-  display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.main-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
 .btn {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -151,7 +135,14 @@ address {
   color: #ffffff;
   cursor: pointer;
   display: block;
+  align-items: end;
   margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 48px;
 }
 
 .btn:hover {
@@ -160,6 +151,30 @@ address {
 
 .btn:focus {
   background-color: #404bbf;
+}
+/* Section 1 */
+
+.box-section-one{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main-section {
+  background-color: #2e2f42;
+  display: flex;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
 }
 
 /* Section 2 */
@@ -170,6 +185,13 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: none;
+}
+
+.box-about{
+display: flex;
+padding: 120px , 156px;
+gap: 20px;
 }
 
 .title-list-about {
@@ -202,6 +224,17 @@ address {
   color: #2e2f42;
 }
 
+.box-section-two{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.box-team-list{
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
+
 .list-team {
   background-color: #ffffff;
 }
@@ -212,6 +245,9 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-text {
@@ -219,9 +255,22 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+}
+
+.container-title-our{
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 32px;
 }
 
 /* Section 4 */
+
+.box-section-three{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .title-porfolio {
   font-size: 36px;
@@ -232,12 +281,27 @@ address {
   color: #2e2f42;
 }
 
+.container-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-menu{
+    /* flex-basis: calc((100% - 24px) / 3); */
+   
+}
+
 .item-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+
 }
 
 .portfolio-content {
@@ -245,18 +309,23 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-content {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer-logo {
