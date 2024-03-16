@@ -211,6 +211,22 @@ address {
 .box-about{
 display: flex;
 gap: 24px;
+
+}
+
+.wrap-about-icon{
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-about{
+  fill: #F4F4FD;
 }
 
 
@@ -295,15 +311,12 @@ gap: 24px;
   text-align: center;
 }
 
-.container-title-our{
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.our-icon-container{
+.list-icon-our{
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .our-team-contact-link{
