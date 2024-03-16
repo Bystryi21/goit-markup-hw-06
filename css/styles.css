@@ -378,18 +378,38 @@ gap: 24px;
   color: #f4f4fd;
 }
 
-.social-media-footer{
-
+.social-media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer-contact-icon{
-}
 
-.social-content{
+.social-content {
   font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff
+}
+
+.footer-list-icons{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-contact-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+}
+
+.icon-list{
+fill: #F4F4FD;
 }
