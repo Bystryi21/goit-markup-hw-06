@@ -473,9 +473,10 @@ gap: 24px;
 
 .footer-logo-wrap{
   display: flex;
-  align-items: flex-start;
+  align-items: baseline,;
   justify-content: center;
   flex-direction: column;
+  margin-right: 120px
 }
 
 .footer-content {
@@ -543,6 +544,9 @@ gap: 24px;
   background-color: #31D0AA;
 }
 
+.footer-contact-link:focus {
+  background-color: #31D0AA;
+}
 .icon-list{
 fill: #F4F4FD;
 }
