@@ -350,7 +350,7 @@ address {
   margin-top: 8px;
 }
 
-.our-icon-section-three{
+.our-team-contact-link{
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -474,6 +474,7 @@ address {
 
 .footer-wrap {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-wrap {
@@ -543,9 +544,7 @@ address {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-contact-link:hover {
