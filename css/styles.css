@@ -366,6 +366,14 @@ gap: 24px;
   align-items: center;
 }
 
+.our-team-contact-link:hover{
+  background-color: #404bbf;
+}
+
+.our-team-contact-link:focus{
+  background-color: #404bbf;
+}
+
 .our-icon-list{
   fill: #F4F4FD;
 }
