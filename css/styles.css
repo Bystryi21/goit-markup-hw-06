@@ -290,6 +290,16 @@ address {
   padding-bottom: 120px;
 }
 
+.our-portfolio-wrap{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* .section-three-wrap{
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
+
 .title-third-section {
   font-size: 36px;
   line-height: 1.11;
