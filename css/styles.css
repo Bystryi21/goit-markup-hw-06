@@ -81,6 +81,7 @@ address {
     width: 48px;
     height: 4px;
     background: #404bbf;
+    display: flex;
 }
 
 .header-menu{
