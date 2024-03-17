@@ -75,6 +75,14 @@ address {
     flex-grow: 1;
 }
 
+.item-studio-effect::after{
+  content: "";
+  border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+}
+
 .header-menu{
     display: flex;
     align-items: center;
@@ -92,6 +100,9 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-item:hover {
@@ -117,6 +128,9 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover {
@@ -145,6 +159,9 @@ address {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
@@ -363,6 +380,38 @@ gap: 24px;
     width: calc((100% - 48px) / 3);
 } 
 
+.img-our-portfolio-wrap{
+  position: relative;
+    overflow: hidden;
+}
+
+.portfolio-img-cover-wrap{
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-cover-text{
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    position: absolute;
+    top: 0;
+    background-color: #4D5AE5;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-menu:hover .portfolio-cover-text{
+  transform: translateY(0);
+}
+
 .img-portfolio{
   /* flex-basis: calc((100% - 48px) / 3); */
     border-radius: 0px 0px 4px 4px;
@@ -467,6 +516,13 @@ gap: 24px;
   height: 40px;
   border-radius: 50%;
   background-color: #4D5AE5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact-link:hover{
+  background-color: #31D0AA;
 }
 
 .icon-list{
