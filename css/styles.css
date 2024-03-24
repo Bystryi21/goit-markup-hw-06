@@ -744,6 +744,10 @@ address {
   margin-bottom: 8px;
 }
 
+.modal-field-last{
+  margin-bottom: 16px;
+}
+
 .modal-label {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
