@@ -691,11 +691,13 @@ address {
   border-radius: 100%;
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .modal-close-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .svg-icon-close {
@@ -739,8 +741,7 @@ address {
 }
 
 .modal-field {
-  /* margin-bottom: 8px; */
-  margin-bottom: 16px
+  margin-bottom: 8px;
 }
 
 .modal-label {
