@@ -807,7 +807,6 @@ address {
 }
 
 .check-text {
-  display: flex;
   align-items: center;
   font-size: 12px;
   letter-spacing: 0.04em;
