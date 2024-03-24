@@ -574,19 +574,24 @@ font-family: "Roboto", sans-serif;
 
 .form-subscribe{
   display: flex;
+  gap: 24px;
 }
 
 .footer-email-subscribe{
   border: 1px solid #fff;
     border-radius: 4px;
-    max-width: 264px;
+    width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #2E2F42;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     padding-left: 16px;
     padding-bottom: 8px;
     padding-top: 8px;
-    margin-right: 24px;
+    background-color: transparent;
 }
 
 .footer-email-subscribe::placeholder{
@@ -595,12 +600,12 @@ font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-subscribe{
 border-radius: 4px;
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -611,8 +616,16 @@ border-radius: 4px;
     border: none;
     color: #fff;
   background: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
+.svg-telegram{
+fill: #FFFFFF;
+margin-left: 16px;
+}
 
 
 /*Modal window*/
