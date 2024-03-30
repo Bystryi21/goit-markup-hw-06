@@ -36,11 +36,13 @@ address {
 
 .container {
   /* width: 1158px; */
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: 0 auto;
   /*  */
-  width: 100%;
+  width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* Header */
@@ -49,8 +51,8 @@ address {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .logo {
@@ -94,8 +96,10 @@ address {
 }
 
 .header-menu-list {
-  display: flex;
-  gap: 40px;
+  /* display: flex;
+  gap: 40px; */
+  /*  */
+  display: none;
 }
 
 .header-list-item {
@@ -125,8 +129,10 @@ address {
 }
 
 .address-menu {
-  display: flex;
-  gap: 40px;
+  /* display: flex;
+  gap: 40px; */
+  /*  */
+  display: none;
 }
 
 .address-list {
