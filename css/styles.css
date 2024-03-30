@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+
 }
 
 h1,
@@ -303,13 +304,23 @@ address {
 
 .section-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  /*  */
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section-three-wrap{
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .our-portfolio-wrap {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .title-third-section {
@@ -492,13 +503,21 @@ address {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  /*  */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-wrap {
+  /* display: flex;
+  align-items: baseline; */
+  /*  */
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .footer-logo-wrap {
@@ -583,10 +602,13 @@ address {
 
 .container-footer-subscribe {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start;
   justify-content: left;
   margin-left: 120px;
+  flex-direction: column; */
+  /*  */
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .subscribe-text {
@@ -602,6 +624,9 @@ address {
 .form-subscribe {
   display: flex;
   gap: 24px;
+  /*  */
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .footer-email-subscribe {
