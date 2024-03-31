@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <header class="header"> 
+    <header class="header">
       <!-- Logo-->
       <div class="container header-menu">
         <nav class="header-navigation">
@@ -54,6 +54,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="btn-mob">
+          <svg class="svg-menu-mob" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu-mob"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Section 1  -->
@@ -65,7 +70,7 @@
           <button class="btn" type="button">Order Service</button>
         </div>
       </section>
-      
+
       <!-- Section 2 -->
       <section class="section">
         <div class="container">
@@ -490,16 +495,22 @@
           </ul>
         </div>
         <div class="container-footer-subscribe">
-        <p class="subscribe-text">Subscribe</p>
-        <form class="form-subscribe">
-        <label class="subscribe-input">
-          <input type="email" name="footer-email" placeholder="E-mail" class="footer-email-subscribe">
-        </label>
-        <button type="submit" class="btn-subscribe">Subscribe<svg class="svg-telegram" width="24" height="24">
-          <use href="./images/icons.svg#icon-telegram"></use>
-        </svg>
-      </button>
-        </form>
+          <p class="subscribe-text">Subscribe</p>
+          <form class="form-subscribe">
+            <label class="subscribe-input">
+              <input
+                type="email"
+                name="footer-email"
+                placeholder="E-mail"
+                class="footer-email-subscribe"
+              />
+            </label>
+            <button type="submit" class="btn-subscribe">
+              Subscribe<svg class="svg-telegram" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -507,9 +518,9 @@
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
-            <svg class="svg-icon-close" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
+          <svg class="svg-icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
 
@@ -583,11 +594,78 @@
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the <a href="" class="check-link"> Privacy Policy</a></label>
+              I accept the terms and conditions of the
+              <a href="" class="check-link"> Privacy Policy</a></label
+            >
           </div>
           <button type="submit" class="btn-send">Send</button>
         </form>
+      </div>
+    </div>
+
+  <!-- Backdrop mobile menu -->
+
+    <div class="backdrop-mob-menu">
+      <div class="modal-mob-menu">
+        <button type="button" class="modal-close-btn-mob">
+          <svg class="svg-icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="nav-mob-menu">
+        <ul class="header-mob-menu-list">
+          <li>
+            <a class="header-mob-list-item item-mob-studio-effect" href="./index.html">Studio</a>
+          </li>
+          <li><a class="header-mob-list-item" href="">Portfolio</a></li>
+          <li><a class="header-mob-list-item" href="">Contacts</a></li>
+        </ul>
+        </nav>
         
+        <!--Contacts-->
+        
+        <address class="address-mob-list">
+          <ul class="address-mob-menu">
+            <li class="adress-mob-list-menu">
+              <a class="address-mob-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="adress-mob-list-menu">
+              <a class="address-mob-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mob-list-icons">
+          <li class="mob-icons-item">
+            <a href="" class="mob-contact-link">
+              <svg class="mob-icon-list" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-icons-item">
+            <a href="" class="mob-contact-link">
+              <svg class="mob-icon-list" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-icons-item">
+            <a href="" class="mob-contact-link">
+              <svg class="mob-icon-list" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-icons-item">
+            <a href="" class="mob-contact-link">
+              <svg class="mob-icon-list" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
       </div>
     </div>
   </body>
