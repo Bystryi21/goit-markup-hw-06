@@ -995,6 +995,7 @@ address {
       flex-direction: row;
       flex-wrap:nowrap;
       gap: 0;
+      padding-left: 15px;
   }
 }
 
