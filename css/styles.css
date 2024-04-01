@@ -983,7 +983,8 @@ address {
     flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
-    justify-content: center;
+    padding-left: 108px;
+    align-items: baseline;
   }
 }
 
