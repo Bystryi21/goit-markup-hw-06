@@ -1122,7 +1122,7 @@ address {
 }
 
 .container-footer-subscribe {
-  display: flex;
+  /* display: flex; */
   /* align-items: flex-start;
   justify-content: left;
   margin-left: 120px;
@@ -1145,6 +1145,7 @@ address {
       justify-content: left;
       margin-left: 120px;
       flex-direction: row;
+      margin:0 auto;
   }
 }
 
