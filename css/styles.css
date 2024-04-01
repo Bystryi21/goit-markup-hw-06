@@ -983,6 +983,7 @@ address {
     flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
+    justify-content: center;
   }
 }
 
@@ -1365,6 +1366,12 @@ address {
   /* margin-bottom: 8px; */
   /*  */
   margin-bottom: 4px;
+}
+
+@media(min-width:768px) {
+  .modal-field {
+    margin-bottom: 8px;
+  }
 }
 
 @media(min-width:1158px){
