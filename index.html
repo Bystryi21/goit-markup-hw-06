@@ -135,12 +135,35 @@
           <h2 class="title-third-section">Our Team</h2>
           <ul class="box-team-list">
             <li class="list-team">
-              <img
-                src="./images/img-3.jpg"
-                class="img-our"
-                alt="Mark Guerrero"
-                width="264"
-              />
+              <picture>
+                <source
+                  @media="min-width:1158px"
+                  srcset="
+                    ./images/our/desctop/mark-min.jpg    1x,
+                    ./images/our/desctop/mark@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:768px"
+                  srcset="
+                    ./images/our/tablet/mark-min.jpg   1x,
+                    ./images/our/tablet/mark2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:320px"
+                  srcset="
+                    ./images/our/mob/markmob1x-min.jpg   1x,
+                    ./images/our/mob/markmob2x-min.jpg2x
+                  "
+                />
+                <img
+                  src="./images/img-3.jpg"
+                  class="img-our"
+                  alt="Mark Guerrero"
+                  width="264"
+                />
+              </picture>
               <div class="our-portfolio-wrap">
                 <h3 class="title-name">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -181,12 +204,35 @@
               </div>
             </li>
             <li class="list-team">
-              <img
-                src="./images/img-2.jpg"
-                class="img-our"
-                alt="Tom Ford"
-                width="264"
-              />
+              <picture>
+                <source
+                  @media="min-width:1158px"
+                  srcset="
+                    ./images/our/desctop/tom-min.jpg    1x,
+                    ./images/our/desctop/tom@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:768px"
+                  srcset="
+                    ./images/our/tablet/tom-min.jpg   1x,
+                    ./images/our/tablet/tom2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:320px"
+                  srcset="
+                    ./images/our/mob/tommob1x-min.jpg 1x,
+                    ./images/our/mob/tommob2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img-2.jpg"
+                  class="img-our"
+                  alt="Tom Ford"
+                  width="264"
+                />
+              </picture>
               <div class="our-portfolio-wrap">
                 <h3 class="title-name">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -227,12 +273,35 @@
               </div>
             </li>
             <li class="list-team">
-              <img
-                src="./images/img-1.jpg"
-                class="img-our"
-                alt="Camila Garcia"
-                width="264"
-              />
+              <picture>
+                <source
+                  @media="min-width:1158px"
+                  srcset="
+                    ./images/our/desctop/camila-min.jpg    1x,
+                    ./images/our/desctop/camila@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:768px"
+                  srcset="
+                    ./images/our/tablet/camila-min.jpg   1x,
+                    ./images/our/tablet/camila2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:320px"
+                  srcset="
+                    ./images/our/mob/camilamob1x-min.jpg 1x,
+                    ./images/our/mob/camilamob2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img-1.jpg"
+                  class="img-our"
+                  alt="Camila Garcia"
+                  width="264"
+                />
+              </picture>
               <div class="our-portfolio-wrap">
                 <h3 class="title-name">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
@@ -273,12 +342,35 @@
               </div>
             </li>
             <li class="list-team">
-              <img
-                src="./images/img.jpg"
-                class="img-our"
-                alt="Daniel Wilson"
-                width="264"
-              />
+              <picture>
+                <source
+                  @media="min-width:1158px"
+                  srcset="
+                    ./images/our/desctop/daniel-min.jpg    1x,
+                    ./images/our/desctop/daniel@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:768px"
+                  srcset="
+                    ./images/our/tablet/daniel-min.jpg   1x,
+                    ./images/our/tablet/daniel2x-min.jpg 2x
+                  "
+                />
+                <source
+                  @media="min-width:320px"
+                  srcset="
+                    ./images/our/mob/danielmob1x-min.jpg 1x,
+                    ./images/our/mob/danielmob2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img.jpg"
+                  class="img-our"
+                  alt="Daniel Wilson"
+                  width="264"
+                />
+              </picture>
               <div class="our-portfolio-wrap">
                 <h3 class="title-name">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -333,21 +425,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/bank-min.jpg    1x,
                       ./images/portfolio/desctop/bank@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/bank-min.jpg    1x,
                       ./images/portfolio/tablet/bank@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/bank-min.jpg   1x,
                       ./images/portfolio/mob/bank2x-min.jpg 2x
@@ -376,21 +468,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/cash-min.jpg    1x,
                       ./images/portfolio/desctop/cash@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/cash-min.jpg    1x,
                       ./images/portfolio/tablet/cash@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/cash-min.jpg   1x,
                       ./images/portfolio/mob/cash2x-min.jpg 2x
@@ -418,21 +510,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/meditation-min.jpg    1x,
                       ./images/portfolio/desctop/meditation@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/meditation-min.jpg    1x,
                       ./images/portfolio/tablet/meditation@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/meditation-min.jpg   1x,
                       ./images/portfolio/mob/meditation2x-min.jpg 2x
@@ -460,21 +552,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/taxi-min.jpg    1x,
                       ./images/portfolio/desctop/taxi@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/taxi-min.jpg    1x,
                       ./images/portfolio/tablet/taxi@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/taxi-min.jpg   1x,
                       ./images/portfolio/mob/taxi2x-min.jpg 2x
@@ -502,21 +594,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/screen-min.jpg    1x,
                       ./images/portfolio/desctop/screen@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/screen-min.jpg    1x,
                       ./images/portfolio/tablet/screen@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/screen-min.jpg   1x,
                       ./images/portfolio/mob/screen2x-min.jpg 2x
@@ -544,21 +636,21 @@
               <div class="portfolio-img-cover-wrap">
                 <picture>
                   <source
-                    @media="min-width:1158"
+                    @media="min-width:1158px"
                     srcset="
                       ./images/portfolio/desctop/online-min.jpg    1x,
                       ./images/portfolio/desctop/online@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:768"
+                    @media="min-width:768px"
                     srcset="
                       ./images/portfolio/tablet/online-min.jpg    1x,
                       ./images/portfolio/tablet/online@2x-min.jpg 2x
                     "
                   />
                   <source
-                    @media="min-width:320"
+                    @media="min-width:320px"
                     srcset="
                       ./images/portfolio/mob/online-min.jpg   1x,
                       ./images/portfolio/mob/online2x-min.jpg 2x
