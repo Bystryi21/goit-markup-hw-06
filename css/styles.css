@@ -468,9 +468,11 @@ address {
   padding-bottom: 72px;
 }
 
-@media(min-resolution:192dpi) {
-  .banner {
-    background-image: url("../images/our/Dark-bg@2x-min.jpg");
+@media (min-width: 320px) and (min-resolution:192dpi) {
+  .main-section {
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url("../images/our/Dark-bg@2x-min.jpg");
   }
 }
 
@@ -506,7 +508,8 @@ address {
 
 @media(min-width:1158px) and (min-resolution: 192dpi){
   .main-section{
-  background-image: url("../images/our/peopledesc2x.jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)), url("../images/our/peopledesc2x.jpg");
   }
 }
 
